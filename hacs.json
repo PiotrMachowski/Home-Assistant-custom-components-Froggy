@@ -1,0 +1,8 @@
+{
+  "name": "Froggy",
+  "render_readme": true,
+  "domains": ["binary_sensor"],
+  "zip_release": true,
+  "filename": "froggy.zip",
+  "country": "PL"
+}

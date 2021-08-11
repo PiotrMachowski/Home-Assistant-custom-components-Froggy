@@ -1,0 +1,11 @@
+{
+  "domain": "froggy",
+  "name": "Froggy",
+  "documentation": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Froggy",
+  "issue_tracker": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Froggy/issues",
+  "dependencies": [],
+  "codeowners": ["@PiotrMachowski"],
+  "requirements": ["requests"],
+  "version": "v1.0.0",
+  "iot_class": "cloud_polling"
+}
