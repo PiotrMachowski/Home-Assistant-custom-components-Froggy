@@ -38,7 +38,7 @@ rm froggy.zip
 | `name` | `string` | `False` | `Froggy` | Prefix for sensor ids |
 | `latitude` | `float` | `False` | Latitude of home | Latitude of point of reference |
 | `longitude` | `float` | `False` | Longitude of home | Longitude of of reference |
-| `shop_ids` | `list` | `False` | - | List of monitored shop ids (ID can be retrieved from [this](https://www.zabka.pl/znajdz-sklep) page) |
+| `shop_ids` | `list` | `False` | - | List of monitored shop ids ([retrieving id](#retrieving-shop-id)) |
 
 ### Example configuration
 
