@@ -3,7 +3,7 @@ import datetime
 import homeassistant.helpers.config_validation as cv
 import requests
 import voluptuous as vol
-from homeassistant.components.binary_sensor import ENTITY_ID_FORMAT, PLATFORM_SCHEMA
+from homeassistant.components.binary_sensor import ENTITY_ID_FORMAT, PLATFORM_SCHEMA, DEVICE_CLASS_OPENING
 from homeassistant.const import (ATTR_LATITUDE, ATTR_LONGITUDE, CONF_LATITUDE, CONF_LONGITUDE, CONF_NAME)
 
 try:
@@ -99,6 +99,10 @@ class FroggySensor(BinarySensorEntity):
         if self.is_on:
             return 'mdi:store'
         return 'mdi:store-remove'
+
+    @property
+    def device_class(self):
+        return DEVICE_CLASS_OPENING
 
     def update(self):
         address = 'https://apkykk0pza-dsn.algolia.net/1/indexes/prod_locator_prod_zabka/' + self.store_id \
