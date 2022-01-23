@@ -75,7 +75,7 @@ class FroggySensor(BinarySensorEntity):
         return self.data['openTimeSeconds'] <= nowSeconds <= self.data['closeTimeSeconds']
 
     @property
-    def device_state_attributes(self):
+    def extra_state_attributes(self):
         output = dict()
         if self.data is not None:
             now = datetime.datetime.now()
