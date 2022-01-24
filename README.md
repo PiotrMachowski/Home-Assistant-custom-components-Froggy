@@ -39,7 +39,7 @@ After adding a custom repository you can use HACS to install this integration us
 
 ### Manual
 
-To install this integration manually you have to download [*froggy.zip*](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Froggy/releases/latest/download/froggy.zip) extract its contents to `config/custom_components/froggy` directory:
+To install this integration manually you have to download [*froggy.zip*](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Froggy/releases/latest/download/froggy.zip) and extract its contents to `config/custom_components/froggy` directory:
 ```bash
 mkdir -p custom_components/froggy
 cd custom_components/froggy
