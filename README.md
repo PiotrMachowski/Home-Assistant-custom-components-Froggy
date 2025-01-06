@@ -17,6 +17,11 @@
 [releases]: https://github.com/PiotrMachowski/Home-Assistant-custom-components-Froggy/releases
 [downloads_total_shield]: https://img.shields.io/github/downloads/PiotrMachowski/Home-Assistant-custom-components-Froggy/total
 
+
+> [!CAUTION]
+> API Used by this integration is no longer available
+
+
 # Froggy Sensor
 
 This custom integration retrieves opening status of [Żabka shops](https://www.zabka.pl/).
